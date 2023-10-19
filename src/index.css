@@ -94,3 +94,18 @@ i {
   top: 687px;
   left: 580px;
 }
+
+.works--header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.works--header--left {
+  margin-left: 5rem;
+}
+
+.works--header--left h1 {
+  font-size: 3em;
+  padding-left: 1rem;
+}

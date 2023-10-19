@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { Routes, Route, Link } from "react-router-dom";
-import Header from "./assets/components/Header";
-import HomePage from "./assets/components/HomePage";
+import Header from "./components/Header";
+import HomePage from "./components/HomePage";
+import Works from "./components/Works";
 import "./App.css";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<HomePage />}></Route>
+        <Route path="/works" element={<Works />}></Route>
       </Routes>
     </div>
   );

@@ -13,7 +13,7 @@ export default function Header() {
           <Link to="">About me</Link>
         </li>
         <li>
-          <Link to="">Projects</Link>
+          <Link to="/works">Works</Link>
         </li>
         <ul className="header--connect--button">
           <Link to="">Let's connect</Link>
