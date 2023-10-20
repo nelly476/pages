@@ -1,3 +1,5 @@
+import img1 from "../assets/img1.png";
+
 export default function Works() {
   return (
     <div className="works--page">
@@ -73,6 +75,24 @@ export default function Works() {
             fill="#EE817A"
           />
         </svg>
+      </div>
+      <div className="works--body">
+        <div className="works--project">
+          <img src={img1} alt="works--project-picture" />
+          <span className="works--project--description">
+            <h1>Kreative Minds</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+              maximus leo non eleifend pulvinar. Interdum et malesuada fames ac
+              ante ipsum primis in faucibus.
+            </p>
+            <ul>
+              <li>Website Design</li>
+              <li>Website development</li>
+              <li>SEO</li>
+            </ul>
+          </span>
+        </div>
       </div>
     </div>
   );

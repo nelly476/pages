@@ -99,13 +99,27 @@ i {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.works--header--left {
   margin-left: 5rem;
 }
 
 .works--header--left h1 {
   font-size: 3em;
   padding-left: 1rem;
+}
+
+.works--body {
+  margin: 1rem 5rem;
+  /* position: relative; */
+}
+
+.works--project {
+  position: relative;
+}
+
+.works--project--description {
+  position: absolute;
+  right: 0;
+  top: 3rem;
+  max-width: 50%;
+  background-color: #242424;
 }
