@@ -108,18 +108,55 @@ i {
 }
 
 .works--body {
-  margin: 1rem 5rem;
-  /* position: relative; */
+  margin: 2rem 5rem;
 }
 
 .works--project {
   position: relative;
+  margin-bottom: 3rem;
 }
 
 .works--project--description {
   position: absolute;
   right: 0;
-  top: 3rem;
+  top: 17%;
+  min-height: 45%;
   max-width: 50%;
   background-color: #242424;
+  color: white;
+  padding: 2.5rem;
+}
+
+.works--project--img--left {
+  display: block;
+  margin-left: auto;
+}
+
+.works--project--description--left {
+  position: absolute;
+  left: 0;
+  top: 17%;
+  min-height: 45%;
+  max-width: 50%;
+  background-color: #242424;
+  color: white;
+  padding: 2.5rem;
+}
+
+.works--project--description--buttons {
+  display: flex;
+  padding: 0;
+  column-gap: 1rem;
+}
+
+.works--project--description--buttons li {
+  background-color: #fff4f4;
+  color: #ff70ac;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+.works--project--description a {
+  color: #ff70ac;
+  text-decoration: underline;
 }

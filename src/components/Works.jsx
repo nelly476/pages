@@ -1,4 +1,7 @@
 import img1 from "../assets/img1.png";
+import img2 from "../assets/img2.png";
+import img3 from "../assets/img3.png";
+import img4 from "../assets/img4.png";
 
 export default function Works() {
   return (
@@ -86,10 +89,82 @@ export default function Works() {
               maximus leo non eleifend pulvinar. Interdum et malesuada fames ac
               ante ipsum primis in faucibus.
             </p>
-            <ul>
+            <ul className="works--project--description--buttons">
               <li>Website Design</li>
               <li>Website development</li>
               <li>SEO</li>
+            </ul>
+            <a href="url">
+              Learn more{" "}
+              <svg
+                width="22"
+                height="16"
+                viewBox="0 0 22 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1 7.5C0.723858 7.5 0.5 7.72386 0.5 8C0.5 8.27614 0.723858 8.5 1 8.5V7.5ZM21.3536 8.35355C21.5488 8.15829 21.5488 7.84171 21.3536 7.64645L18.1716 4.46447C17.9763 4.2692 17.6597 4.2692 17.4645 4.46447C17.2692 4.65973 17.2692 4.97631 17.4645 5.17157L20.2929 8L17.4645 10.8284C17.2692 11.0237 17.2692 11.3403 17.4645 11.5355C17.6597 11.7308 17.9763 11.7308 18.1716 11.5355L21.3536 8.35355ZM1 8.5H21V7.5H1V8.5Z"
+                  fill="#FF70AC"
+                />
+              </svg>
+            </a>
+          </span>
+        </div>
+        <div className="works--project">
+          <img
+            src={img2}
+            alt="works--project-picture"
+            className="works--project--img--left"
+          />
+          <span className="works--project--description--left">
+            <h1>Fashionista</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+              maximus leo non eleifend pulvinar. Interdum et malesuada fames ac
+              ante ipsum primis in faucibus.
+            </p>
+            <ul className="works--project--description--buttons">
+              <li>Social Media</li>
+              <li>Copyright</li>
+              <li>Content</li>
+            </ul>
+          </span>
+        </div>
+        <div className="works--project">
+          <img src={img3} alt="works--project-picture" />
+          <span className="works--project--description">
+            <h1>Carol Lynn</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+              maximus leo non eleifend pulvinar. Interdum et malesuada fames ac
+              ante ipsum primis in faucibus.
+            </p>
+            <ul className="works--project--description--buttons">
+              <li>Analytics</li>
+              <li>Website development</li>
+              <li>SEO</li>
+              <li>Social Media</li>
+            </ul>
+          </span>
+        </div>
+        <div className="works--project">
+          <img
+            src={img4}
+            alt="works--project-picture"
+            className="works--project--img--left"
+          />
+          <span className="works--project--description--left">
+            <h1>Pro.Kasko</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+              maximus leo non eleifend pulvinar. Interdum et malesuada fames ac
+              ante ipsum primis in faucibus.
+            </p>
+            <ul className="works--project--description--buttons">
+              <li>Social Media</li>
+              <li>Content</li>
+              <li>Copyright</li>
             </ul>
           </span>
         </div>
